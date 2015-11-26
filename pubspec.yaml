@@ -9,6 +9,8 @@ dependencies:
   vector_math: '>=1.4.3 <2.0.0'
 dev_dependencies:
   browser: '>=0.10.0 <0.11.0'
+  runtime:
+    path: ../../../web_runtime
 transformers:
 - $dart2js:
     commandLineOptions:
